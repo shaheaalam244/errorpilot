@@ -5,6 +5,7 @@
   "description": "Production-Grade AI Error Diagnostic Tool",
   "main": "./dist/extension.js",
   "publisher": "shaheaalam",
+  "icon": "src/assets/logo.jpg",
   "repository": {
     "type": "git",
     "url": "https://github.com/shaheaalam244/errorpilot.git"
