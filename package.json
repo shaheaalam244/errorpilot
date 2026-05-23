@@ -1,0 +1,87 @@
+{
+  "name": "errorpilot",
+  "displayName": "ErrorPilot",
+  "version": "0.1.0",
+  "description": "Production-Grade AI Error Diagnostic Tool",
+  "main": "./dist/extension.js",
+  "publisher": "shaheaalam",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaheaalam244/errorpilot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shaheaalam244/errorpilot/issues"
+  },
+  "homepage": "https://github.com/shaheaalam244/errorpilot#readme",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "activationEvents": [],
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "errorpilot-sidebar-container",
+          "title": "ErrorPilot",
+          "icon": "$(debug-console)"
+        }
+      ]
+    },
+    "views": {
+      "errorpilot-sidebar-container": [
+        {
+          "type": "webview",
+          "id": "errorpilot.sidebarView",
+          "name": "ErrorPilot Diagnostics"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "errorpilot.analyze",
+        "title": "Analyze with ErrorPilot"
+      },
+      {
+        "command": "errorpilot.setApiKey",
+        "title": "ErrorPilot: Set AI API Key"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "errorpilot.analyze",
+          "group": "navigation",
+          "when": "editorHasSelection"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "ErrorPilot Settings",
+      "properties": {
+        "errorpilot.model": {
+          "type": "string",
+          "default": "gemini-3.5-flash",
+          "enum": [
+            "gemini-3.5-flash",
+            "gemini-2.5-flash",
+            "gemini-2.0-flash",
+            "gemini-1.5-flash",
+            "gemini-1.5-pro"
+          ],
+          "markdownDescription": "Choose which AI model to use. If one model hits rate limits (429 Too Many Requests), switching to another can bypass it."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "^2.6.0"
+  }
+}
