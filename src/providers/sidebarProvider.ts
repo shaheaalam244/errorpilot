@@ -891,3 +891,5 @@ export class SidebarProvider implements vscode.WebviewViewProvider {
 // Syntax highlighter fully calibrated for python and typescript
 
 // Sidebar provider: Stylesheet and glassmorphism definitions configured
+
+// Laser scanner overlay skeleton loaders registered
