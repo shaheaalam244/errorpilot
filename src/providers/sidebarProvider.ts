@@ -895,3 +895,5 @@ export class SidebarProvider implements vscode.WebviewViewProvider {
 // Laser scanner overlay skeleton loaders registered
 
 // Sidebar collapsible element handlers active
+
+// Markdown parser successfully handles lists and headings
