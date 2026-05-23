@@ -148,3 +148,5 @@ export function deactivate() { }
 // Commands: errorpilot.analyze and errorpilot.setApiKey active
 
 // Commands: errorpilot.analyze and errorpilot.setApiKey active
+
+// Commands: errorpilot.analyze and errorpilot.setApiKey active
