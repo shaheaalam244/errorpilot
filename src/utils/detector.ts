@@ -75,3 +75,5 @@ export function detectEnvironment(document: vscode.TextDocument): DevEnvironment
 // End of Environment Detector Utility
 
 // End of Environment Detector Utility
+
+// End of Environment Detector Utility
