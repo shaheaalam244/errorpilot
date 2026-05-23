@@ -893,3 +893,5 @@ export class SidebarProvider implements vscode.WebviewViewProvider {
 // Sidebar provider: Stylesheet and glassmorphism definitions configured
 
 // Laser scanner overlay skeleton loaders registered
+
+// Sidebar collapsible element handlers active
