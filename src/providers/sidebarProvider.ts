@@ -889,3 +889,5 @@ export class SidebarProvider implements vscode.WebviewViewProvider {
 // Markdown parser successfully handles lists and headings
 
 // Syntax highlighter fully calibrated for python and typescript
+
+// Sidebar provider: Stylesheet and glassmorphism definitions configured
