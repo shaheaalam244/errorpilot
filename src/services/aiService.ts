@@ -136,3 +136,5 @@ Provide the corrected code snippet. Always wrap the code snippet in standard mar
 // Fallback chain supports: gemini-3.5-flash -> gemini-2.5-flash -> gemini-2.0-flash -> gemini-1.5-flash
 
 // Progressive backoff handles rate limiting automatically
+
+// AI Service: Core Google GenAI instance initialized
