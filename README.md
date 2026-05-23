@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/shaheaalam244/errorpilot"><img src="https://img.shields.io/badge/GitHub-ErrorPilot-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="ErrorPilot" /></a>
-  <img src="https://img.shields.io/badge/Version-0.1.0-06b6d4?style=for-the-badge" alt="Version 0.1.0" />
+  <img src="https://img.shields.io/badge/Version-0.1.2-06b6d4?style=for-the-badge" alt="Version 0.1.2" />
   <img src="https://img.shields.io/badge/Powered%20By-Gemini%20AI-10b981?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Powered by Gemini" />
 </p>
 
@@ -13,6 +13,18 @@
 **ErrorPilot** is a production-grade, highly intuitive AI-powered diagnostic companion built exclusively for VS Code. Designed to instantly eliminate debugging fatigue, it analyzes highlighted compilation bugs, runtime stack traces, or logical code anomalies directly from your workspace and generates high-fidelity resolutions in milliseconds.
 
 Featuring a gorgeous **glassmorphic sidebar interface** with smooth micro-animations, modular framework detection, and a fault-tolerant failover engine, ErrorPilot makes your coding workspace feel alive.
+
+### ⚡ Quick Start — 3 Steps
+
+> **Before you begin**: Make sure you have a free [Google Gemini API Key](https://aistudio.google.com). It's free and takes 30 seconds.
+
+| Step | Action | Details |
+|------|--------|---------|
+| **1** | 🔑 **Set your API Key** | Press `Cmd+Shift+P` → type **`ErrorPilot: Set AI API Key`** → paste your Gemini API key |
+| **2** | 🖱️ **Select your error** | Highlight any bug, error message, or suspicious code in your editor |
+| **3** | 🚀 **Analyze it** | Right-click → **"Analyze with ErrorPilot"** — OR — Press `Cmd+Shift+P` → **`Analyze with ErrorPilot`** |
+
+> 💡 **Tip**: The ErrorPilot sidebar will slide open automatically with a 3-part AI diagnostic report — Root Cause, Suggested Fix, and a copy-able Code Solution.
 
 ---
 
@@ -113,10 +125,4 @@ If you love using ErrorPilot, consider starring the repository and connecting wi
 
 *ErrorPilot is licensed under the MIT License. Crafted with ❤️ by Shahe Aalam Ansari.*
 
-<!-- README refined for production deployment -->
-
-<!-- README refined for production deployment -->
-
-<!-- README refined for production deployment -->
-
-<!-- README refined for production deployment -->
+<!-- README v0.1.2 — ShaheAalamAnsari -->
